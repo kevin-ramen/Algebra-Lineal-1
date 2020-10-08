@@ -31,7 +31,6 @@ def graph(l1,l2,lf,sol):#Grafica del resultado
         fig = plt.Figure(figsize=(10,10),dpi=50)
         fig.add_subplot(111).plot(x, y1, label = "L1=L2", linewidth = 3, color = "purple")
     else:
-        #No hay solucion
         #Obtenemos los puntos de l1
         y1=ydots(l1)
         #Obtenemos los puntos de l2
